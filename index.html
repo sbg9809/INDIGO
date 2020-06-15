@@ -1,11 +1,244 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>홈페이지 만들기 </title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+
 </head>
+
 <body>
-    
+    <div id="wrap">
+
+        <header class="header cfixed">
+            <h1 class="logo">
+                <a href="#">INDIGO</a>
+            </h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WE ARE</a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <article class="slider">
+            <img src="./images/p-images/slide01.jpg" alt="">
+        </article>
+
+        <section class="content">
+            <section class="display-section">
+                <div class="container">
+                    <h2 class="sec-tit"> WE ARE</h2>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus iure
+                        exercitationem cum qui ducimus veniam non odit. Culpa perspiciatis eveniet harum quaerat,<br>
+                        architecto repellat exercitationem? Quam ipsa sit officia voluptate.</p>
+                </div>
+            </section>
+            <section class="promotion-section">
+                <div class="container">
+                    <ul class="promo-list">
+                        <li>
+                            <a href="#">
+                                <img src="./images/s-images/promo01.png" alt="">
+                                <h3>HOME</h3>
+                                <p> Quas nesciunt animi necessitatibus id eligendi accusamus voluptatum?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s-images/promo02.png" alt="">
+                                <h3>WE ARE</h3>
+                                <p> Quas nesciunt animi necessitatibus id eligendi accusamus voluptatum?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s-images/promo03.png" alt="">
+                                <h3>WORL</h3>
+                                <p> Quas nesciunt animi necessitatibus id eligendi accusamus voluptatum?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s-images/promo04.png" alt="">
+                                <h3>BLOG</h3>
+                                <p> Quas nesciunt animi necessitatibus id eligendi accusamus voluptatum?</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <HR class="divider">
+            <section class="work-section cfixed">
+                <h2 class="sec-tit">WORK</h2>
+                <ul class="work-list">
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Running</h3>
+                                <span>running</span>
+                            </div>
+                            <img src="./images/p-images/work01.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Rugby</h3>
+                                <span> Voluptatibus iure exercitationem cum qui.</span>
+                            </div>
+                            <img src="./images/p-images/work02.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Weight</h3>
+                                <span>Weight</span>
+                            </div>
+                            <img src="./images/p-images/work03.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Marathon</h3>
+                                <span> Marathon </span>
+                            </div>
+                            <img src="./images/p-images/work04.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Boxing</h3>
+                                <span>Boxing</span>
+                            </div>
+                            <img src="./images/p-images/work05.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Ice hockey</h3>
+                                <span> Voluptatibus iure exercitationem cum qui.</span>
+                            </div>
+                            <img src="./images/p-images/work06.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Skate Board</h3>
+                                <span>Skate Board</span>
+                            </div>
+                            <img src="./images/p-images/work07.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Basketball</h3>
+                                <span>Basketball</span>
+                            </div>
+                            <img src="./images/p-images/work08.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <hr class="divider">
+                <section class="blog-sectiong">
+                    <div class="container">
+                        <h2 class="sec-tit">BLOG</h2>
+                        <ul class="blog-list">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p-images/blog01.jpg" alt="">
+                                </a>
+                                <time datetime="2020-06-15">2020/06/15 </time>
+                                <a href="#">
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ut
+                                        excepturi omnis?</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p-images/blog02.jpg" alt="">
+                                </a>
+                                <time datetime="2020-06-15">2020/06/15 </time>
+                                <a href="#">
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ut
+                                        excepturi omnis?</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p-images/blog03.jpg" alt="">
+                                </a>
+                                <time datetime="2020-06-15">2020/06/15 </time>
+                                <a href="#">
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ut
+                                        excepturi omnis?</h3>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+            </section>
+            <section class="contact-section">
+                <h2 class="sec-tit">CONTACT</h2>
+                <div class="form-box">
+                    <form action="">
+                        <fieldset class="cfixed">
+                            <legend class="blind">CONTACT</legend>
+                            <div class="form">
+                                <label for="name" class="blind">name</label>
+                                <input type="text" id="name" placeholder="Name">
+                                <label for="phone" class="blind">phone</label>
+                                <input type="tel" id="phone" placeholder="Phone">
+                                <label for="email" class="blind">Email</label>
+                                <input type="email" id="email" placeholder="Email Address">
+                            </div>
+                            <div class="textarea">
+                                <label for="message" class="bling">
+                                    message
+                                </label>
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                        </fieldset>
+                        <div class="sent-btn">
+                            <button>SEND Message</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </section>
+        </section>
+
+        <footer class="footer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.4698848519874!2d129.06744156675651!3d35.16983939091831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb5828e59e7d%3A0x782023af52a75b88!2z66qp7ZmU7JWF6riw!5e0!3m2!1sko!2skr!4v1592198985754!5m2!1sko!2skr"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"></iframe>
+            <p class="copyright">made by Bong</p>
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
